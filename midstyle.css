@@ -1,0 +1,56 @@
+
+body {
+    background-image: url('background.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+.navbar-brand{
+    width: 150px; 
+    height: auto;
+}
+
+/* Hero Section */
+.hero-section, .two-column {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #007bff;
+    opacity: 0.9;
+    border-radius: 8px; 
+}
+.card-title p{
+    display: none;
+    background-color: rgb(73, 73, 201);
+    padding: 5px;
+}
+h5:hover p{
+    display: block;
+}
+/* Card Section */
+.card img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.two-column {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-column, .right-column {
+    width: 48%;
+}
+
+/* Footer */
+footer a {
+    color: #ccc;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #fff;
+}
